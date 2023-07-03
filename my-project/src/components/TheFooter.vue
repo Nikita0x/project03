@@ -4,7 +4,7 @@ import TheLogo from './TheLogo.vue';
 
 
 <template>
-    <section class="mt-[100px] bg-primary container max-w-[1680px] mb-20 mx-auto px-[120px]">
+    <section class="mt-[100px] bg-primary container max-w-[1440px] mb-20 mx-auto px-[120px]">
         <div class="flex justify-between py-10">
             <h2 class="text-4xl font-semibold text-white leading-[170%]">let's discuss making your interior<br>like a dream place!</h2>
             <div>
@@ -18,7 +18,7 @@ import TheLogo from './TheLogo.vue';
         </div>
     </section>
 
-    <section class="container mx-auto max-w-[1680px] px-[120px]">
+    <section class="container mx-auto max-w-[1440px] px-[120px]">
         <div class="flex justify-between">
             <div class="flex flex-col">
                 <TheLogo/>
