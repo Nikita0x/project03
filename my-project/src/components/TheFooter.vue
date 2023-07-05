@@ -10,7 +10,7 @@ import TheLogo from './TheLogo.vue';
             <div>
                 <p class="mb-5 text-grayscale_lightray">Contact us below to work together to build your<br> amazing interior</p>
                 <a href="#" class="inline-block text-sm font-medium capitalize text-grayscale">
-                    <div class="flex justify-center items-center w-[142px] h-[49px] bg-white">
+                    <div class="flex justify-center items-center w-[142px] h-[49px] bg-white  hover:bg-primary hover:text-white active:bg-primary_active transition border">
                         <p>contact us</p>
                     </div>
                 </a>

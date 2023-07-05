@@ -1,7 +1,7 @@
 <script>
 import WhyChooseUs from "./components/WhyChooseUs.vue";
 import TitleWithLine from "./components/TitleWithLine.vue";
-import ChooseYourProductThemes from "./components/ChooseYourProductThemes.vue";
+import ChooseYourProductThemes from "./components/pages/home/ChooseYourProductThemes.vue";
 import IntroSection from "./components/IntroSection.vue";
 import AchievementItem from "./components/pages/services/AchievementItem.vue";
 import PersonCard from "./components/pages/ourTeams/PersonCard.vue";
@@ -54,9 +54,9 @@ export default {
 
 <template>
   <body font-roboto id="app" class="container mx-auto max-w-[1200px]">
-    <TheHeader />
+    <TheHeader class="px-[20px]" />
     <router-view />
-    <TheFooter />
+    <TheFooter class="px-[20px]" />
       <!-- <IntroSection
       v-bind:title="`Services`"
       v-bind:description="`It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.`"

@@ -1,6 +1,5 @@
 <script>
 import ProductThemesItem from './ProductThemesItem.vue';
-import TitleWithLine from './TitleWithLine.vue';
 
 export default {
   name: 'ChooseYourProductThemes',

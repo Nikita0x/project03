@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import ChooseYourProductThemesVue from '../components/ChooseYourProductThemes.vue';
+import ChooseYourProductThemesVue from '../components/pages/home/ChooseYourProductThemes.vue';
 import TheHomePage from "../components/pages/home/TheHomePage.vue"
 
 const routes = [

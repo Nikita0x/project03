@@ -17,11 +17,11 @@ export default {
 <template>
   <div class="container max-w-[1200px] mx-auto">
     <p
-      class="relative uppercase text mb-[20px] text-base font-medium leading-[150%]"
+      class="relative z-20 bg-white uppercase text mb-[20px] text-base font-medium leading-[150%]"
     >
       {{ title }}
       <span
-        :class="`absolute ${right} ${left} ${top} h-[2px] bg-black ${width}`"
+        :class="`absolute ${right} ${left} ${top} h-[2px] bg-black z-10 ${width}`"
       ></span>
     </p>
   </div>

@@ -1,49 +1,28 @@
 <script setup>
 import TitleWithLine from "../../TitleWithLine.vue";
+import HomeIntroBlueSidebar from "./HomeIntroBlueSidebar.vue";
 defineProps({
   title: String,
 });
 </script>
 
 <template>
-  <div class="container flex flex-col mx-auto">
-    <TitleWithLine width="w-[683px]" top="top-[75px]" right="right-[0px]" />
+  <div class="container relative flex flex-col mx-auto border">
+    <TitleWithLine  width="w-[20vw] 400px:w-[32vw] top-[40px] sm:w-[420px] md:w-[300px] lg:w-[520px] xl:w-[710px]" top="sm:top-[35px] md:top-[70px]" right="right-[0px]" />
     <h1
       v-if="title"
-      class="mb-[46px] text-7xl max-w-[630px] font-bold leading-[140%] text-[#333]"
+      class="mb-[46px] z-10 md:z-0 bg-white md:bg-transparent text-3xl max-w-[200px]  md:text-7xl md:max-w-[630px] font-bold md:leading-[140%] text-[#333]"
     >
       {{ title }}
-
-      <img src="" alt="">
     </h1>
-    <div class="relative">
+    <div>
       <div
-        class="max-w-[1200px] min-h-[513px]"
+        class="max-w-[1200px]"
       >
-    <img src="../../../assets/home/HomeIntro.svg" alt="HomeIntroImage"></div>
+    <img src="../../../assets/home/HomeIntro.svg" alt="HomeIntroImage">
+  </div>
       <!-- right sidebar -->
-      <div
-        class="absolute bottom-[197px] left-[806px] max-w-[252px] py-[40px] px-[50px] flex flex-col items-center bg-[#2C3878] text-white"
-      >
-        <!-- projects completed -->
-        <h2 class="text-[52px] leading-[160%]">350+</h2>
-        <p class="text-base leading-[160%] mb-[57px]">Project Completed</p>
-        <!-- professional teams -->
-        <h2 class="text-[52px] leading-[160%]">23+</h2>
-        <p class="text-base leading-[160%] mb-[57px]">Professional Teams</p>
-        <!-- years experience -->
-        <h2 class="text-[52px] leading-[160%]">15+</h2>
-        <p class="text-base leading-[160%]">Years Experience</p>
-      </div>
-      <!-- copyrights -->
-      <div
-        class="absolute top-[-179px] right-[174px] -rotate-90 max-w-[200px] min-h-[54px]"
-      >
-        <p class="text-lg uppercase font-medium leading-[150%]">
-          2023<br />
-          all rights reserved
-        </p>
-      </div>
+      <HomeIntroBlueSidebar />
     </div>
   </div>
 </template>

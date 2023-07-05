@@ -3,7 +3,7 @@ import TheHeader from "../../TheHeader.vue";
 import IntroSection from "../../IntroSection.vue";
 import TitleWithLine from "../../TitleWithLine.vue";
 import AchievementItem from "./AchievementItem.vue";
-import ChooseYourProductThemes from "../../ChooseYourProductThemes.vue";
+import ChooseYourProductThemes from "../home/ChooseYourProductThemes.vue";
 import TheFooter from "../../TheFooter.vue";
 </script>
 

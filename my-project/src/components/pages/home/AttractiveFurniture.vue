@@ -1,5 +1,5 @@
 <script setup>
-import ProductThemesItem from "../../ProductThemesItem.vue";
+import ProductThemesItem from "./ProductThemesItem.vue";
 import TitleWithLine from "../../TitleWithLine.vue";
 </script>
 
@@ -43,7 +43,7 @@ import TitleWithLine from "../../TitleWithLine.vue";
     <div class="absolute max-w-[1067px] min-h-[682px] bottom-0 right-0">
       <img
         class="max-w-[1067px] min-h-[524px] bg-center bg-cover bg-no-repeat"
-        src="https://i.ibb.co/LC7J5jw/unsplash-v-PKNB-gc23-Q.png'"
+        src="../../../assets/home/AttractiveFurniture.svg"
         alt="image"
       />
     </div>
