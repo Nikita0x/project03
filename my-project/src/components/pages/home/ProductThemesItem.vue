@@ -23,8 +23,8 @@ export default {
     <a href="#" class="transition duration-300 rounded-sm hover:bg-slate-200 focus:bg-slate-200">
       <div class="flex items-center justify-between">
       <div class="flex">
-        <p class="text-[32px] font-semibold leading-[140%]">{{ number }}</p>
-        <p class="pl-[80px] text-[32px] font-semibold leading-[140%]">
+        <p class="text-[15px] 400px:text-[20px]  sm:text-[32px] font-semibold leading-[140%]">{{ number }}</p>
+        <p class="pl-[20px] 400px:pl-[80px] text-[15px]  400px:text-[20px] sm:text-[32px] font-semibold leading-[140%]">
           {{ theme }}
         </p>
       </div>
