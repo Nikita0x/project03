@@ -23,8 +23,8 @@ import ChooseYourProductThemes from './ChooseYourProductThemes.vue';
       :right="`md:right-[-190px]`"
     />
     <AttractiveFurniture />
-    <TitleWithLine :title="`product`" :width="`w-[529px] max-w-400px`" :top="`top-[11px]`" :left="`left-[10%]`" />  
-    <ChooseYourProductThemes class="mb-[160px]" />
+    <TitleWithLine class="px-[20px]" :title="`product`" :width="`w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[90px]`" />  
+    <ChooseYourProductThemes class="mb-[160px] border border-red-300" />
     <TitleWithLine :title="`material`" :width="`w-[529px] max-w-400px`" :top="`top-[11px]`" :left="`left-[10%]`" /> 
     <ChoiceOfMaterials class="pb-[20px]" />
 </template>

@@ -8,7 +8,7 @@ import TitleWithLine from "../../TitleWithLine.vue";
     <section class="px-[20px] absolute z-10 container mx-auto max-w-[890px] bg-white">
       <TitleWithLine
         title="service"
-        :left="'left-[70px]'"
+        :left="'left-[80px]'"
         :top="`top-[10px]`"
         :width="'w-[45vw]'"
       />
