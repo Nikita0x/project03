@@ -23,8 +23,8 @@ export default {
     <a href="#" class="transition duration-300 rounded-sm hover:bg-slate-200 focus:bg-slate-200">
       <div class="flex items-center justify-between">
       <div class="flex">
-        <p class="text-[15px] 400px:text-[20px]  sm:text-[32px] font-semibold leading-[140%]">{{ number }}</p>
-        <p class="pl-[20px] 400px:pl-[80px] text-[15px]  400px:text-[20px] sm:text-[32px] font-semibold leading-[140%]">
+        <p class="text-sm sm:text-base lg:text-[1.125rem] font-semibold leading-[140%]">{{ number }}</p>
+        <p class="pl-[20px] 400px:pl-[80px] text-sm sm:text-base lg:text-[1.125rem] font-semibold leading-[140%]">
           {{ theme }}
         </p>
       </div>
@@ -36,7 +36,7 @@ export default {
 
     <p
       v-if="description"
-      class="ml-[120px] pt-[24px] max-w-[469px] min-h-[58px] text-lg font-normal leading-[160%]"
+      class="ml-[10vw] pt-[24px] max-w-[469px] min-h-[58px] text-sm sm:text-base lg:text-[1.125rem] font-normal leading-[160%]"
     >
       {{ description }}
     </p>

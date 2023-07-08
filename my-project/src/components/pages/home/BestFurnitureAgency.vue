@@ -19,7 +19,7 @@ defineProps({
       />
     <h2
       v-if="title"
-      class="mb-[56px] text-[#333] text-2xl md:text-4xl font-semibold leading-[170%]"
+      class="mb-[56px] text-[#333] text-lg 400px:text-2xl md:text-4xl font-semibold leading-[170%]"
     >
       {{ title }}
     </h2>

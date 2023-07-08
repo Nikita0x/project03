@@ -15,6 +15,10 @@ export default {
       },
       screens: {
         '400px': '400px',
+      },
+      fontSize: {
+        'responsive-font-subheader': 'text-sm sm:text-base lg:text-[1.125rem]',
+        'responsive-font-header': 'text-lg 400px:text-2xl md:text-4xl',
       }
     },
   },

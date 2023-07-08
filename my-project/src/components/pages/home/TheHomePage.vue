@@ -11,7 +11,7 @@ import ChooseYourProductThemes from './ChooseYourProductThemes.vue';
 </script>
 
 <template>
-  <HomeIntro class="mb-[50px] sm:mb-[160px]" :title="`Design your interior with high quality.`" />
+  <HomeIntro class="mb-[170px] sm:mb-[160px]" :title="`Design your interior with high quality.`" />
   <TitleWithLine :title="`about`" :width="`w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[70px]`" class="px-[20px]" />  
   <BestFurnitureAgency
       class="mb-[160px]"
@@ -23,8 +23,8 @@ import ChooseYourProductThemes from './ChooseYourProductThemes.vue';
       :right="`md:right-[-190px]`"
     />
     <AttractiveFurniture />
-    <TitleWithLine class="px-[20px]" :title="`product`" :width="`w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[90px]`" />  
+    <TitleWithLine class="px-[20px]" :title="`product`" :width="`w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[88px]`" />  
     <ChooseYourProductThemes class="mb-[160px] border border-red-300" />
-    <TitleWithLine :title="`material`" :width="`w-[529px] max-w-400px`" :top="`top-[11px]`" :left="`left-[10%]`" /> 
+    <TitleWithLine class="px-[20px]" :title="`material`" :width="`w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[95px]`"/> 
     <ChoiceOfMaterials class="pb-[20px]" />
 </template>

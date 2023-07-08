@@ -17,10 +17,10 @@
     <section class="container mx-auto max-w-[1200px] px-4 sm:px-[60px] md:px-[120px] border">
         <div class="flex flex-col justify-between sm:flex-row">
             <div class="flex flex-col items-center mb-5 sm:mb-0 400px:items-start">
-                <TheLogo class="mb-5 -z-10 sm:md-0"/>
+                <TheLogo class="mb-5 sm:md-0"/>
                 <h2 class=" text-base md:text-xl lg:text-4xl font-semibold leading-[170%] text-grayscale">One of the best furniture<br> agency.</h2>
             </div>
-            <div class="relative -z-10">
+            <div class="relative z-10">
                 <div class="flex mb-[23px] flex-col 400px:flex-row items-center">
                     <svg class="hidden 400px:block mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="14" height="15" fill="none"><ellipse cx="7" cy="7.18237" fill="#333" rx="7" ry="7.00879"/></svg>
                     <p class="inline-block text-sm text-center  sm:text-base leading-[160%] text-grayscale">Enter  your email to get the latest news</p>
