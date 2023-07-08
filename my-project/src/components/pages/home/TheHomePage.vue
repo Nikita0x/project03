@@ -25,6 +25,6 @@ import ChooseYourProductThemes from './ChooseYourProductThemes.vue';
     <AttractiveFurniture />
     <TitleWithLine class="px-[20px]" :title="`product`" :width="`w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[88px]`" />  
     <ChooseYourProductThemes class="mb-[160px] border border-red-300" />
-    <TitleWithLine class="px-[20px]" :title="`material`" :width="`w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[95px]`"/> 
+    <TitleWithLine class="px-[20px ]" :title="`material`" :width="`w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[95px]`"/> 
     <ChoiceOfMaterials class="pb-[20px]" />
 </template>
