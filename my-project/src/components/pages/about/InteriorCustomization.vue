@@ -4,7 +4,6 @@ defineProps({
   projectsCompleted: String,
   professionalTeams: String,
   yearsExperience: String,
-  imageSrc: String,
 });
 </script>
 
@@ -16,7 +15,7 @@ defineProps({
   <div class="flex justify-between">
     <!-- image -->
     <div class="max-w-[883px]">
-      <img :src="imageSrc" alt="image" />
+      <img src="../../../assets/about/interior_customization.svg" alt="image" />
     </div>
     <!-- right sidebar -->
     <div

@@ -57,26 +57,11 @@ export default {
     <TheHeader class="px-[20px]" />
     <router-view />
     <TheFooter class="px-[20px]" />
-      <!-- <IntroSection
-      v-bind:title="`Services`"
-      v-bind:description="`It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.`"
-      v-bind:imageSrc="`https://i.ibb.co/2qy54Wz/picture.png`"
-    /> -->
-    <!-- <ChooseYourProductThemes /> -->
 
-
-
-    <!-- <ChoiceOfMaterials /> -->
     <!-- <OurTeamsGrid /> -->
     <!-- <PortfolioDetails /> -->
     <!-- <VisitOurStores /> -->
-    <!-- <InteriorCustomization
-      :title="`interior customization with Danaanz, best quality with professional workers`"
-      :projectsCompleted="`350+`"
-      :professionalTeams="`23+`"
-      :imageSrc="`https://i.ibb.co/Bqrdr4K/unsplash-tle-CJi-DOri0.png`"
-      :yearsExperience="`15+`"
-    /> -->
+
 
     
     <!-- <ContactUsForm/> -->

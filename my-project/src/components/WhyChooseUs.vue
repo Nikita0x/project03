@@ -19,9 +19,9 @@ export default {
       </p>
     </div>
 
-    <div class="flex justify-center">
+    <div class="flex justify-between gap-5">
       <div
-        class="flex flex-col justify-center items-center max-w-[388px] min-h-[295px] space-y-[20px] bg-yellow-300 border border-black"
+        class="flex flex-col justify-center items-center  min-h-[295px] space-y-[20px] bg-yellow-300 border border-black"
       >
         <!-- circle -->
         <div class="rounded-full w-[63px] h-[63px] bg-[#D9D9D9]"></div>
@@ -29,7 +29,7 @@ export default {
           high quality
         </p>
         <p
-          class="max-w-[334px] min-h-[116px] text-lg font-normal leading-[160%]"
+          class="min-h-[116px] text-lg font-normal leading-[160%]"
         >
           Customize your interior design into a dream place with the best
           designers and quality furniture. We try our best to fulfill your
@@ -37,7 +37,7 @@ export default {
         </p>
       </div>
       <div
-        class="flex flex-col justify-center items-center max-w-[388px] min-h-[295px] space-y-[20px] bg-yellow-300 border border-black"
+        class="flex flex-col justify-center items-center  min-h-[295px] space-y-[20px] bg-yellow-300 border border-black"
       >
         <!-- circle -->
         <div class="rounded-full w-[63px] h-[63px] bg-[#D9D9D9]"></div>
@@ -45,7 +45,7 @@ export default {
           professional designer
         </p>
         <p
-          class="max-w-[334px] min-h-[116px] text-lg font-normal leading-[160%]"
+          class="min-h-[116px] text-lg font-normal leading-[160%]"
         >
           Customize your interior design into a dream place with the best
           designers and quality furniture. We try our best to fulfill your
@@ -53,7 +53,7 @@ export default {
         </p>
       </div>
       <div
-        class="flex flex-col justify-between items-center max-w-[388px] min-h-[295px] space-y-[20px] bg-yellow-300 border border-black"
+        class="flex flex-col justify-between items-center  min-h-[295px] space-y-[20px] bg-yellow-300 border border-black"
       >
         <!-- circle -->
         <div class="rounded-full w-[63px] h-[63px] bg-[#D9D9D9]"></div>
@@ -61,7 +61,7 @@ export default {
           the best services
         </p>
         <p
-          class="max-w-[334px] min-h-[116px] text-lg font-normal leading-[160%]"
+          class=" min-h-[116px] text-lg font-normal leading-[160%]"
         >
           Customize your interior design into a dream place with the best
           designers and quality furniture. We try our best to fulfill your
