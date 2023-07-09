@@ -40,7 +40,7 @@
       <!-- burger menu -->
       <div class="z-30 flex items-center justify-center md:hidden">
         <button
-          @click="burgerOpen = !burgerOpen"
+          @click="burgerOpen = !burgerOpen; activate()"
           id="button"
           class="border w-[50px] h-[50px] border-pink-700"
         >
@@ -80,7 +80,6 @@
         <div
         @click.stop.prevent="burgerOpen = !burgerOpen"
         @click.prevent="deactivate()"
-        ref="target"
           v-if="burgerOpen"
           class="fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm"
         >
@@ -136,27 +135,31 @@
 
           <router-link
           id="home"
-          v-on:click="burgerOpen = !burgerOpen"
+          v-on:click="burgerOpen = false"
           class="p-5 transition border-b-2 border-transparent hover:text-primary_hover hover:border-primary_hover focus:outline-dashed outline-4 outline-primary"
           to="/"
           >Home</router-link
         >
         <router-link
+          v-on:click="burgerOpen = false"
           class="p-5 transition border-b-2 border-transparent hover:text-primary_hover hover:border-primary_hover focus:outline-dashed outline-4 outline-primary"
           to="/about"
           >About</router-link
         >
         <router-link
+          v-on:click="burgerOpen = false"
           class="p-5 transition border-b-2 border-transparent hover:text-primary_hover hover:border-primary_hover focus:outline-dashed outline-4 outline-primary"
           to="/about"
           >Services</router-link
         >
         <router-link
+          v-on:click="burgerOpen = false"
           class="p-5 transition border-b-2 border-transparent hover:text-primary_hover hover:border-primary_hover focus:outline-dashed outline-4 outline-primary"
           to="/about"
           >Our teams</router-link
         >
         <router-link
+          v-on:click="burgerOpen = false"
           class="flex p-5 text-center text-white transition border-b-2 border-transparent hover:bg-primary_hover active:bg-primary_active bg-primary focus:outline-dashed outline-4 outline-primary"
           to="/about"
           >Contact Us</router-link

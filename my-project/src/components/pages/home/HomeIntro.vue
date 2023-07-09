@@ -7,7 +7,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="px-[20px] sm:px-0 container relative flex flex-col mx-auto border">
+  <div class="px-[20px] sm:px-0 container relative flex flex-col mx-auto">
     <TitleWithLine  width="400px:w-[20vw] sm:w-[400px] top-[40px] sm:w-[420px] md:w-[300px] lg:w-[520px] xl:w-[710px]" top="sm:top-[35px] md:top-[70px]" right="right-[0px]" />
     <h1
       v-if="title"

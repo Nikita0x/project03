@@ -1,10 +1,10 @@
 
 <template>
-    <section class="mt-[100px] bg-primary container max-w-[1200px] mb-20 mx-auto  px-4 sm:px-[60px] md:px-[120px]">
+    <section class="mt-[100px] bg-primary container max-w-[1200px] mb-20 mx-auto  px-4 ">
         <div class="flex flex-col justify-between py-10 sm:space-x-5 sm:flex-row">
-            <h2 class=" text-2xl text-center sm:text-start mb-4 sm:mb-0 md:text-xl lg:text-4xl font-semibold text-white leading-[170%]">let's discuss making your interior<br>like a dream place!</h2>
+            <h2 class="text-3xl text-center md:text-start mb-4 sm:mb-0 font-semibold text-white leading-[170%]">let's discuss making your interior like a dream place!</h2>
             <div class="flex flex-col items-center sm:justify-center sm:items-start">
-                <p class="mb-5 text-center sm:text-start text-grayscale_lightray">Contact us below to work together to build your amazing interior</p>
+                <p class="mb-5 text-base text-center sm:text-start text-grayscale_lightray">Contact us below to work together to build your amazing interior</p>
                 <a href="#" class="inline-block text-sm font-medium capitalize text-grayscale">
                     <div class="flex justify-center items-center w-[142px] h-[49px] bg-white  hover:bg-primary hover:text-white active:bg-primary_active transition border">
                         <p>contact us</p>
@@ -18,12 +18,12 @@
         <div class="flex flex-col justify-between sm:flex-row">
             <div class="flex flex-col items-center mb-5 sm:mb-0 400px:items-start">
                 <TheLogo class="mb-5 sm:md-0"/>
-                <h2 class=" text-base md:text-xl lg:text-4xl font-semibold leading-[170%] text-grayscale">One of the best furniture<br> agency.</h2>
+                <h2 class=" text-base md:text-xl lg:text-2xl font-semibold leading-[170%] text-grayscale">One of the best furniture<br> agency.</h2>
             </div>
             <div class="relative z-10">
                 <div class="flex mb-[23px] flex-col 400px:flex-row items-center">
                     <svg class="hidden 400px:block mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="14" height="15" fill="none"><ellipse cx="7" cy="7.18237" fill="#333" rx="7" ry="7.00879"/></svg>
-                    <p class="inline-block text-sm text-center  sm:text-base leading-[160%] text-grayscale">Enter  your email to get the latest news</p>
+                    <p class="inline-block text-sm text-center leading-[160%] text-grayscale">Enter  your email to get the latest news</p>
                 </div>
                 <input type="text" placeholder="Email Address" class="px-6 py-2 w-full focus:outline-none   placeholder:text-base placeholder:leading-[160%] placeholder:text-grayscale_lightray border-b border-black">
                 <div class="flex justify-center sm:justify-end">

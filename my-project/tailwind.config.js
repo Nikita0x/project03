@@ -12,6 +12,7 @@ export default {
         primary_active: '#1a2148',
         grayscale: '#333333',
         grayscale_lightray: '#D9D9D9',
+        grayscale10: '#9C9C9C',
       },
       screens: {
         '400px': '400px',

@@ -1,5 +1,5 @@
 <script setup>
-import IntroSection from '../../../components/IntroSection.vue';
+import AboutIntro from '../../../components/pages/about/AboutIntro.vue';
 import TitleWithLine from '../../TitleWithLine.vue';
 import InteriorCustomization from "./InteriorCustomization.vue"
 import WhyChooseUs from "../../../components/WhyChooseUs.vue"
@@ -8,7 +8,7 @@ import WhyChooseUs from "../../../components/WhyChooseUs.vue"
 
 
 <template>
-  <IntroSection :title="`About`" :description="`It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.`"/>
+  <AboutIntro :title="`About`" :description="`Welcome to our world of interior design excellence. We believe that every space has a story to tell, and our mission is to transform your vision into a captivating reality.`"/>
   <TitleWithLine :title="`achievement`" :width="`w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[70px]`" class="px-[20px]" /> 
   <InteriorCustomization
   :title="`Interior customization with Danaanz, best quality with professional workers`"

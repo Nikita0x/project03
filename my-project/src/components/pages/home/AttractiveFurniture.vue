@@ -4,8 +4,8 @@ import TitleWithLine from "../../TitleWithLine.vue";
 </script>
 
 <template>
-  <div class="relative md:grid grid-cols-5 md:grid-rows-4 lg:grid-rows-5 gap-0 max-w-[1200px] border-yellow-400 border container mx-auto mb-[170px]">
-    <section class=" col-start-1 col-end-5 row-start-1 row-end-4 px-[20px] border  z-10 max-w-[890px] bg-white">
+  <div class="relative md:grid grid-cols-5 md:grid-rows-4 lg:grid-rows-5 gap-0 max-w-[1200px]  container mx-auto mb-[170px]">
+    <section class=" col-start-1 col-end-5 row-start-1 row-end-4 px-[20px]  z-10 max-w-[890px] bg-white">
       <TitleWithLine
         title="service"
         :left="'left-[80px]'"
@@ -41,7 +41,7 @@ import TitleWithLine from "../../TitleWithLine.vue";
       <ProductThemesItem class="mb-[35px]" :number="`03`" :theme="`Construction Consultant`" />
     </section>
     <!--image  -->
-    <div class="col-start-2 col-span-4 row-start-3 row-end-6">
+    <div class="col-span-4 col-start-2 row-start-3 row-end-6">
       <img 
         src="../../../assets/home/AttractiveFurniture.svg"
         alt="image"

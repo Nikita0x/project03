@@ -19,7 +19,7 @@ export default {
           Choose your product themes.
         </h2>
       </div>
-      <div class="flex justify-center items-center">
+      <div class="flex items-center justify-center">
         <p
           class="max-w-[473px] h-[87px] text-sm sm:text-base lg:text-[1.125rem] font-normal leading-[160%] text-[#9C9C9C]"
         >
@@ -32,25 +32,25 @@ export default {
       class="mb-[43px]"
       :number="`01`"
       :theme="`Vintage`"
-      :description="`the use of simple and limited elements to get the best effect or impression.`"
+      :description="`Embrace the charm of the past with our Vintage collection. Each piece exudes timeless elegance and nostalgic beauty, adding character to your space.`"
     />
     <ProductThemesItem
       class="mb-[43px]"
       :number="`02`"
       :theme="`Minimalist`"
-      :description="`the use of simple and limited elements to get the best effect or impression.`"
+      :description="`Experience the beauty of simplicity with our Minimalist theme. Clean lines, uncluttered spaces, and a focus on essential elements create a calming and contemporary atmosphere.`"
     />
     <ProductThemesItem
       class="mb-[43px]"
       :number="`03`"
       :theme="`Modern`"
-      :description="`the use of simple and limited elements to get the best effect or impression.`"
+      :description="`Embrace the sleek and cutting-edge designs of our Modern theme. Bold shapes, innovative materials, and a touch of avant-garde combine to create a captivating ambiance.`"
     />
     <ProductThemesItem
       class="mb-[43px]"
       :number="`04`"
       :theme="`Transitional`"
-      :description="`the use of simple and limited elements to get the best effect or impression.`"
+      :description="`Discover the perfect balance between classic and contemporary with our Transitional theme. Timeless aesthetics meet modern functionality, resulting in a harmonious blend that suits any style.`"
     />
   </section>
 </template>
