@@ -1,20 +1,17 @@
 <script setup>
-import TheHeader from "../../TheHeader.vue";
 import IntroSection from "../../IntroSection.vue";
 import TitleWithLine from "../../TitleWithLine.vue";
 import AchievementItem from "./AchievementItem.vue";
 import ChooseYourProductThemes from "../home/ChooseYourProductThemes.vue";
-import TheFooter from "../../TheFooter.vue";
 </script>
 
 <template>
-  <TheHeader />
   <IntroSection
     :title="`Services`"
     :description="`It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.`"
-    :imageSrc="'https://i.ibb.co/BTrfxrr/unsplash-v-PKNB-gc23-Q.png'"
+    :imageSrc="'https://i.ibb.co/tBGVv1h/ourteams.png'"
   />
-  <TitleWithLine class="mb-[40px]" :title="'achievement'" />
+  <TitleWithLine class="px-[20px]" :title="`product`" :width="`w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[88px]`" />  
   <AchievementItem
     class="mb-[40px]"
     :imageSrc="`https://i.ibb.co/gZLsfyk/picture2.png`"
@@ -33,7 +30,6 @@ import TheFooter from "../../TheFooter.vue";
     :title="`Construction consultant`"
     :description="`Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.`"
   />
-  <TitleWithLine class="mb-[40px]" :title="'product'" />
+      <TitleWithLine class="px-[20px]" :title="`product`" :width="`w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[88px]`" />  
   <ChooseYourProductThemes />
-  <TheFooter />
 </template>

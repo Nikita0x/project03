@@ -2,10 +2,10 @@
 </script>
 
 <template>
-  <section>
-    <div class="flex justify-between container max-w-[1200px] mx-auto">
+  <section class="px-[20px]">
+    <div class="flex flex-col md:flex-row items-center justify-between container max-w-[1200px] mx-auto">
       <!-- visit our stores -->
-      <div class="flex flex-col">
+      <div class="flex flex-col mb-10 md:mb-0">
         <h2
           class="text-4xl mb-[24px] font-semibold leading-[170%] text-[#333333]"
         >
@@ -32,7 +32,7 @@
         </p>
       </div>
       <!-- card -->
-      <div class="grid grid-cols-2 grid-rows-2 gap-x-[60px] gap-y-[40px]">
+      <div class="grid grid-cols-1 sm:grid-cols-2 grid-rows-2 gap-x-[60px] gap-y-[40px]">
         <div class="flex flex-col max-w-[334px]">
           <h2
             class="text-2xl mb-[30px] font-semibold leading-[140%] text-[#333333]"

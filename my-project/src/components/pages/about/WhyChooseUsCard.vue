@@ -8,9 +8,9 @@ defineProps({
 </script>
 
 <template>
-  <div class="flex max-w-[388px] justify-between gap-5">
+  <div class="flex max-w-[388px]  min-h-[420px] justify-between gap-5">
     <div
-      class="flex flex-col justify-center items-center min-h-[295px] space-y-[20px] shadow-md py-5 white border"
+      class="flex flex-col justify-center items-center space-y-[20px] shadow-md py-5 white border"
     >
       <!-- circle -->
       <div class="rounded-full w-[63px] h-[63px] bg-[#D9D9D9]"></div>

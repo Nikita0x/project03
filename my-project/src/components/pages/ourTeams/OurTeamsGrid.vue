@@ -1,46 +1,68 @@
 <script setup>
-// import TitleWithLine from "../../TitleWithLine";
+import TitleWithLine from "../../../components/TitleWithLine.vue";
+import PersonCard from "./PersonCard.vue";
+
 defineProps({
   title: String,
 });
 </script>
 
 <template>
-  <div class="flex flex-col">
-    <TitleWithLine width="w-[683px]" top="top-[75px]" left="left-[380px]" />
-    <h1
-      v-if="title"
-      class="mb-[46px] text-7xl max-w-[630px] font-bold leading-[140%] text-[#333]"
-    >
-      {{ title }}
-    </h1>
-    <div class="relative">
-      <div
-        class="max-w-[1200px] min-h-[513px] bg-center bg-no-repeat bg-cover bg-[url('https://i.ibb.co/L5LJfz8/unsplash-G7s-E2-S4-Lab4.png')]"
-      ></div>
-      <!-- right sidebar -->
-      <div
-        class="absolute bottom-[197px] left-[806px] max-w-[252px] py-[40px] px-[50px] flex flex-col items-center bg-[#2C3878] text-white"
+  <section>
+    <div class="flex flex-col container max-w-[1200px] mx-auto">
+      <TitleWithLine class="px-[20px]" :title="`designer`" :width="`w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[88px]`" />  
+      <h2
+        class="max-w-[470px] mb-[24px] text-4xl font-semibold leading-[170%] text-[#333]"
       >
-        <!-- projects completed -->
-        <h2 class="text-[52px] leading-[160%]">350+</h2>
-        <p class="text-base leading-[160%] mb-[57px]">Project Completed</p>
-        <!-- professional teams -->
-        <h2 class="text-[52px] leading-[160%]">23+</h2>
-        <p class="text-base leading-[160%] mb-[57px]">Professional Teams</p>
-        <!-- years experience -->
-        <h2 class="text-[52px] leading-[160%]">15+</h2>
-        <p class="text-base leading-[160%]">Years Experience</p>
-      </div>
-      <!-- copyrights -->
-      <div
-        class="absolute top-[-179px] right-[174px] -rotate-90 max-w-[200px] min-h-[54px]"
-      >
-        <p class="text-lg uppercase font-medium leading-[150%]">
-          2023<br />
-          all rights reserved
-        </p>
+        Creative Person
+      </h2>
+      <p class="max-w-[470px] mb-[80px] text-lg leading-[160%] text-[#9C9C9C]">
+        Customize your interior design into a dream place with the best
+        designers and quality furniture. We try our best to fulfill your
+        expectations.
+      </p>
+      <div class="grid place-items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:items-start gap-[24px]">
+        <PersonCard
+          :imageSrc="`https://i.ibb.co/Y20CLLF/guy.png`"
+          :name="`Shoo Phar Dhie`"
+          :position="`CEO`"
+        />
+        <PersonCard
+          :imageSrc="`https://i.ibb.co/0ybdV3Y/guy.png`"
+          :name="`Shoo Phar Dhie`"
+          :position="`CEO`"
+        />
+        <PersonCard
+          :imageSrc="`https://i.ibb.co/tm4JcYd/girl.png`"
+          :name="`Shoo Phar Dhie`"
+          :position="`CEO`"
+        />
+        <PersonCard
+          :imageSrc="`https://i.ibb.co/xzp8gsV/gu2.png`"
+          :name="`Shoo Phar Dhie`"
+          :position="`CEO`"
+        />
+        <PersonCard
+          :imageSrc="`https://i.ibb.co/8NW6bPL/girl2.png`"
+          :name="`Shoo Phar Dhie`"
+          :position="`CEO`"
+        />
+        <PersonCard
+          :imageSrc="`https://i.ibb.co/NCR6Hcq/guy3.png`"
+          :name="`Shoo Phar Dhie`"
+          :position="`CEO`"
+        />
+        <PersonCard
+          :imageSrc="`https://i.ibb.co/1Z629HL/girl3.png`"
+          :name="`Shoo Phar Dhie`"
+          :position="`CEO`"
+        />
+        <PersonCard
+          :imageSrc="`https://i.ibb.co/XJ319Gw/guy4.png`"
+          :name="`Shoo Phar Dhie`"
+          :position="`CEO`"
+        />
       </div>
     </div>
-  </div>
+  </section>
 </template>

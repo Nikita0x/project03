@@ -19,8 +19,8 @@ import MessageInput from "./MessageInput.vue";
         readable content of a page when looking at its layout.
       </p>
       <!-- form -->
-      <form action="">
-        <div class="max-w-[840px] flex justify-between">
+      <form>
+        <div class="max-w-[840px] flex flex-col md:flex-row justify-between">
           <InputField
             class="mb-[20px]"
             width="413px"

@@ -17,23 +17,22 @@
           to="/about"
           >About</router-link
         >
-        <li
+        <router-link
           class="transition border-b-2 border-transparent hover:text-primary_hover hover:border-primary_hover"
+          to="/services"
+          >Services</router-link
         >
-          <a href="#">Services</a>
-        </li>
-        <li
+        <router-link
           class="transition border-b-2 border-transparent hover:text-primary_hover hover:border-primary_hover"
+          to="/ourteams"
+          >Our teams</router-link
         >
-          <a href="#">Our Teams</a>
-        </li>
-        <a href="#">
-          <li
+          <router-link
             class="flex justify-center items-center w-[142px] h-[49px] border border-[#3C3C3C] hover:bg-primary_hover active:bg-primary_active bg-primary text-sm font-medium text-white transition"
+            to="/contactus"
           >
             Contact Us
-          </li>
-        </a>
+          </router-link>
       </ul>
 
 
@@ -149,19 +148,19 @@
         <router-link
           v-on:click="burgerOpen = false"
           class="p-5 transition border-b-2 border-transparent hover:text-primary_hover hover:border-primary_hover focus:outline-dashed outline-4 outline-primary"
-          to="/about"
+          to="/services"
           >Services</router-link
         >
         <router-link
           v-on:click="burgerOpen = false"
           class="p-5 transition border-b-2 border-transparent hover:text-primary_hover hover:border-primary_hover focus:outline-dashed outline-4 outline-primary"
-          to="/about"
+          to="/ourteams"
           >Our teams</router-link
         >
         <router-link
           v-on:click="burgerOpen = false"
           class="flex p-5 text-center text-white transition border-b-2 border-transparent hover:bg-primary_hover active:bg-primary_active bg-primary focus:outline-dashed outline-4 outline-primary"
-          to="/about"
+          to="/contactus"
           >Contact Us</router-link
         >
       </div>
