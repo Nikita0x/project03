@@ -29,7 +29,7 @@
 
 <!-- copyrights -->
     <div
-    class="absolute right-[-37px] top-[85px] sm:right-[-37px] md:-right-[68px] md:top-[150px] -rotate-90 sm:max-w-[200px] sm:min-h-[54px] border"
+    class="absolute right-[-37px] top-[85px] sm:right-[-37px] md:-right-[68px] md:top-[150px] -rotate-90 sm:max-w-[200px] sm:min-h-[54px]"
     >
     <p class="text-[10px] sm:text-[12px] md:text-[18px] uppercase font-medium sm:leading-[150%]">
         2023<br />

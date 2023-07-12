@@ -19,8 +19,8 @@ export default {
 </script>
 
 <template>
-  <section class="mb-[100px] container max-w-[1200px] mx-auto border">
-    <div class="flex flex-col items-center border border-black">
+  <section class="mb-[100px] container max-w-[1200px] mx-auto">
+    <div class="flex flex-col items-center">
       <h2 class="text-[56px] font-bold leading-[140%] mb-[36px]">
         {{ title }}
       </h2>

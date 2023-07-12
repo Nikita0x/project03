@@ -13,7 +13,7 @@ defineProps({
         Message
       </p>
       <textarea
-        :class="`min-w-[${width}] min-h-[${height}] px-[32px] py-[18px] border border-[#9C9C9C] bg-white text-wrap text-sm `"
+        :class="`min-w-full min-h-[178px] px-[32px] py-[18px] border border-[#9C9C9C] bg-white text-wrap text-sm `"
         type="text"
         :placeholder="title"
       />

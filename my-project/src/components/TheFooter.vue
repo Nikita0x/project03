@@ -14,7 +14,7 @@
         </div>
     </section>
 
-    <section class="container mx-auto max-w-[1200px] px-4 sm:px-[60px] md:px-[120px] border">
+    <section class="container mx-auto max-w-[1200px] px-4 sm:px-[60px] md:px-[120px]">
         <div class="flex flex-col justify-between sm:flex-row">
             <div class="flex flex-col items-center mb-5 sm:mb-0 400px:items-start">
                 <TheLogo class="mb-5 sm:md-0"/>

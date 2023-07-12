@@ -55,7 +55,9 @@ import TheFooter from "./components/TheFooter.vue";
 
 <template>
   <body font-roboto id="app" class="container mx-auto max-w-[1200px]">
-    <TheHeader class="px-[20px]" />
+    <transition :duration="1000" appear name="header" mode="out-in">
+      <TheHeader class="px-[20px]" />
+    </transition>
     <router-view v-slot="{ Component, route }">
       <transition name="fade" mode="out-in">
         <div :key="route.name">
@@ -63,9 +65,11 @@ import TheFooter from "./components/TheFooter.vue";
         </div>
       </transition>
     </router-view>
-    <TheFooter />
-
-
+    <transition appear name="footer" mode="out-in">
+      <div :key="Date.now()">
+        <TheFooter />
+      </div>
+    </transition>
   </body>
 </template>
 
@@ -76,15 +80,53 @@ import TheFooter from "./components/TheFooter.vue";
   transform: translateX(100px);
 }
 .fade-enter-active {
-  transition: all 0.8s ease-out;
+  transition: all 0.8s;
 }
 .fade-leave-to {
   opacity: 0;
   transform: translateX(-100px);
 }
 .fade-leave-active {
-  transition: all 0.8s ease-in;
+  transition: all 0.8s;
 }
+/* header */
+.header-enter-from {
+  opacity: 0;
+  transform: translateY(-100px);
+}
+.header-enter-active {
+  transition: all 1s ease-out;
+}
+.header-enter-to {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.header-leave-to {
+  opacity: 0;
+  transform: translateY(-100px);
+}
+.header-leave-active {
+  transition: all 1s ease-in;
+}
+
+
+/* footer */
+.footer-enter-from {
+  opacity: 0;
+  transform: translateY(100px);
+}
+.footer-enter-active {
+  transition: all 1s ease-out;
+}
+.footer-leave-to {
+  opacity: 0;
+  transform: translateY(-100px);
+}
+.footer-leave-active {
+  transition: all 1s ease-in;
+}
+
+
 
 </style>
 

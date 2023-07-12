@@ -1,6 +1,6 @@
 <template>
   <header
-    class="mt-10 container max-w-[1200px] mx-auto mb-[100px] border border-black"
+    class="mt-10 container max-w-[1200px] mx-auto mb-[100px]"
   >
     <nav class="flex items-center justify-between md:justify-between">
       <TheLogo />

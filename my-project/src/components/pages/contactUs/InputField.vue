@@ -13,7 +13,7 @@ defineProps({
         {{ title }}
       </p>
       <input
-        :class="`min-w-[${width}] min-h-[${height}] px-[32px] text-sm py-[18px] border border-[#9C9C9C] bg-white`"
+        :class="`w-full min-h-[62px] px-[32px] text-sm py-[18px] border border-[#9C9C9C] bg-white`"
         type="text"
         :placeholder="title"
       />

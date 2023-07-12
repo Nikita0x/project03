@@ -1,16 +1,17 @@
 <script setup>
+import NameField from "./NameField.vue";
 import InputField from "./InputField.vue";
 import PhoneNumberInput from "./PhoneNumberInput.vue";
 import MessageInput from "./MessageInput.vue";
 </script>
 
 <template>
-  <section>
+  <section class="container mx-auto">
     <div
-      class="container flex items-center flex-col mx-auto max-w-[840px] bg-pink-100"
+      class="flex flex-col items-center "
     >
       <!-- title -->
-      <h2 class="text-[2.8rem] font-bold leading-[140%] mb-[40px]">Contact Us</h2>
+      <h2 class="text-[2.5rem] font-bold leading-[140%] mb-[40px]">Contact Us</h2>
       <!-- description -->
       <p
         class="text-sm text-center max-w-[340px] font-normal leading-[160%] mb-[51px]"
@@ -20,37 +21,27 @@ import MessageInput from "./MessageInput.vue";
       </p>
       <!-- form -->
       <form>
-        <div class="max-w-[840px] flex flex-col md:flex-row justify-between">
-          <InputField
+        <div class="flex flex-col justify-between space-x-2 md:flex-row">
+          <NameField
             class="mb-[20px]"
-            width="413px"
-            height="62px"
             title="First Name"
           />
-          <InputField
+          <NameField
             class="mb-[20px]"
-            width="413px"
-            height="62px"
             title="Last Name"
           />
         </div>
-        <div class="max-w-[840px] flex flex-col">
+        <div class="flex flex-col ">
           <InputField
             class="mb-[20px]"
-            width="840px"
-            height="62px"
             title="Email"
           />
           <PhoneNumberInput
             class="mb-[20px]"
-            width="840px"
-            height="62px"
             title="Phone number"
           />
           <MessageInput
             class="mb-[40px]"
-            width="840px"
-            height="178px"
             title="Your Message"
           />
         </div>
