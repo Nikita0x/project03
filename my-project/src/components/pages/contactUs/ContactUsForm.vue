@@ -10,10 +10,10 @@ import MessageInput from "./MessageInput.vue";
       class="container flex items-center flex-col mx-auto max-w-[840px] bg-pink-100"
     >
       <!-- title -->
-      <h2 class="text-[56px] font-bold leading-[140%] mb-[40px]">Contact Us</h2>
+      <h2 class="text-[2.8rem] font-bold leading-[140%] mb-[40px]">Contact Us</h2>
       <!-- description -->
       <p
-        class="text-lg text-center max-w-[340px] font-normal leading-[160%] mb-[51px]"
+        class="text-sm text-center max-w-[340px] font-normal leading-[160%] mb-[51px]"
       >
         It is a long established fact that a reader will be distracted by the
         readable content of a page when looking at its layout.
@@ -56,7 +56,7 @@ import MessageInput from "./MessageInput.vue";
         </div>
         <div class="flex justify-center w-full">
           <button
-            class="text-white bg-[#2C3878] hover:bg-[#242F67] active:bg-[#1F2856] w-[168px] h-[49px] border border-[#3C3C3C]"
+            class="text-white text-xs bg-[#2C3878] hover:bg-[#242F67] active:bg-[#1F2856] w-[168px] h-[49px] border border-[#3C3C3C]"
             type="submit"
           >
             Send Message

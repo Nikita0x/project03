@@ -19,16 +19,16 @@ defineProps({
     </div>
     <!-- right sidebar -->
     <div
-      class="min-w-[252px] px-[20px] min-h-[525px] flex flex-col justify-center items-center bg-primary text-white"
+      class="lg:min-w-[252px] px-0 sm:px-[20px] min-h-[525px] flex flex-col justify-center items-center bg-primary text-white"
     >
       <!-- projects completed -->
-      <h2 class="text-[52px] leading-[160%]">{{ projectsCompleted }}</h2>
+      <h2 class="text-[2.4rem] leading-[160%]">{{ projectsCompleted }}</h2>
       <p class="text-xs leading-[160%] mb-[57px]">Project Completed</p>
       <!-- professional teams -->
-      <h2 class="text-[52px] leading-[160%]">{{ professionalTeams }}</h2>
+      <h2 class="text-[2.4rem] leading-[160%]">{{ professionalTeams }}</h2>
       <p class="text-xs leading-[160%] mb-[57px]">Professional Teams</p>
       <!-- years experience -->
-      <h2 class="text-[52px] leading-[160%]">{{ yearsExperience }}</h2>
+      <h2 class="text-[2.4rem] leading-[160%]">{{ yearsExperience }}</h2>
       <p class="text-xs leading-[160%]">Years Experience</p>
     </div>
   </div>

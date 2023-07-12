@@ -4,7 +4,6 @@ export default {
   props: {
     title: {
       type: String,
-      required: true,
     },
     width: String,
     right: String,

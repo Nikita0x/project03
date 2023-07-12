@@ -1,6 +1,6 @@
 
 <template>
-    <section class="mt-[100px] bg-primary container max-w-[1200px] mb-20 mx-auto  px-4 ">
+    <section class="mt-[100px] px-[20px] bg-primary container max-w-[1200px] mb-20 mx-auto">
         <div class="flex flex-col justify-between py-10 sm:space-x-5 sm:flex-row">
             <h2 class="text-3xl text-center md:text-start mb-4 sm:mb-0 font-semibold text-white leading-[170%]">let's discuss making your interior like a dream place!</h2>
             <div class="flex flex-col items-center sm:justify-center sm:items-start">

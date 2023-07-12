@@ -4,7 +4,7 @@ import WhyChooseUsCard from "./pages/about/WhyChooseUsCard.vue";
 </script>
 
 <template>
-  <TitleWithLine :title="service" />
+  <TitleWithLine :title="'service'" />
   <section>
     <div class="flex px-[20px] items-center lg:items-start flex-col mb-[40px]">
       <h2 class="capitalize mb-[24px] text-2xl font-semibold leading-[170%]">

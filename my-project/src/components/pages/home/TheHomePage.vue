@@ -12,7 +12,7 @@ import ChooseYourProductThemes from './ChooseYourProductThemes.vue';
 
 <template>
   <HomeIntro class="mb-[170px] sm:mb-[160px]" :title="`Design your interior with high quality.`" />
-  <TitleWithLine :title="`about`" :width="`w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[70px]`" class="px-[20px]" />  
+  <TitleWithLine :title="`about`" :width="`w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[70px] lg:left-[100px]`" class="px-[20px]" />  
   <BestFurnitureAgency
       class="mb-[160px]"
       :title="`“We're one of the best furniture agency. Prioritizing customers and making
@@ -21,9 +21,10 @@ import ChooseYourProductThemes from './ChooseYourProductThemes.vue';
       :description="`We will help you build your dream home. It has never been easier!`"
       :right="`md:right-[-190px]`"
     />
+    <TitleWithLine :title="`services`" :width="`w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[90px] lg:left-[120px]`" class="px-[20px]" />  
     <AttractiveFurniture />
-    <TitleWithLine class="px-[20px]" :title="`product`" :width="`w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[88px]`" />  
+    <TitleWithLine :title="`product`" :width="`w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[90px] lg:left-[120px]`" class="px-[20px]" />   
     <ChooseYourProductThemes class="mb-[160px]" />
-    <TitleWithLine class="px-[20px ]" :title="`material`" :width="`w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[95px]`"/> 
+    <TitleWithLine :title="`material`" :width="`w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[90px] lg:left-[120px]`" class="px-[20px]" /> 
     <ChoiceOfMaterials class="pb-[20px]" />
 </template>
