@@ -55,7 +55,7 @@ import TheFooter from "./components/TheFooter.vue";
 
 <template>
   <body font-roboto id="app" class="container mx-auto max-w-[1200px]">
-    <transition :duration="1000" appear name="header" mode="out-in">
+    <transition :duration="2000" appear name="header">
       <TheHeader class="px-[20px]" />
     </transition>
     <router-view v-slot="{ Component, route }">
@@ -124,6 +124,8 @@ import TheFooter from "./components/TheFooter.vue";
 }
 .footer-leave-active {
   transition: all 1s ease-in;
+  transition-duration: 2s;
+
 }
 
 
