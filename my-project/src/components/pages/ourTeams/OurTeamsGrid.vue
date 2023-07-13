@@ -24,43 +24,43 @@ defineProps({
       <div class="grid place-items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:items-start gap-[24px]">
         <PersonCard
           :imageSrc="`https://i.ibb.co/Y20CLLF/guy.png`"
-          :name="`Shoo Phar Dhie`"
-          :position="`CEO`"
+          :name="`Jack Thompson`"
+          :position="`Marketing Manager`"
         />
         <PersonCard
           :imageSrc="`https://i.ibb.co/0ybdV3Y/guy.png`"
-          :name="`Shoo Phar Dhie`"
-          :position="`CEO`"
+          :name="`Ethan Wilson`"
+          :position="`Sales Executive`"
         />
         <PersonCard
           :imageSrc="`https://i.ibb.co/tm4JcYd/girl.png`"
-          :name="`Shoo Phar Dhie`"
-          :position="`CEO`"
+          :name="`Olivia Johnson`"
+          :position="`IT Specialist`"
         />
         <PersonCard
           :imageSrc="`https://i.ibb.co/xzp8gsV/gu2.png`"
-          :name="`Shoo Phar Dhie`"
-          :position="`CEO`"
+          :name="`Liam Harris`"
+          :position="`Project Coordinator`"
         />
         <PersonCard
           :imageSrc="`https://i.ibb.co/8NW6bPL/girl2.png`"
-          :name="`Shoo Phar Dhie`"
-          :position="`CEO`"
+          :name="`Emma Davis`"
+          :position="`HR Manager`"
         />
         <PersonCard
           :imageSrc="`https://i.ibb.co/NCR6Hcq/guy3.png`"
-          :name="`Shoo Phar Dhie`"
-          :position="`CEO`"
+          :name="`Benjamin Martinez`"
+          :position="`Graphic Designer`"
         />
         <PersonCard
           :imageSrc="`https://i.ibb.co/1Z629HL/girl3.png`"
-          :name="`Shoo Phar Dhie`"
-          :position="`CEO`"
+          :name="`Ava Taylor`"
+          :position="`IT Specialist`"
         />
         <PersonCard
           :imageSrc="`https://i.ibb.co/XJ319Gw/guy4.png`"
-          :name="`Shoo Phar Dhie`"
-          :position="`CEO`"
+          :name="`Noah Anderson`"
+          :position="`Graphic Designer`"
         />
       </div>
     </div>

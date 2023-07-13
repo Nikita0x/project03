@@ -20,7 +20,7 @@ export default {
     >
       {{ title }}
       <span
-        :class="`absolute ${right} ${left} ${top} h-[2px] bg-black z-10 ${width}`"
+        :class="`absolute ${right} ${left} ${top} max-w-[1200px] h-[2px] bg-black z-10 ${width}`"
       ></span>
     </p>
   </div>

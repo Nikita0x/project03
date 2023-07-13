@@ -1,7 +1,7 @@
 
 <template>
-    <section class="mt-[100px] px-[20px] bg-primary container max-w-[1200px] mb-20 mx-auto">
-        <div class="flex flex-col justify-between py-10 sm:space-x-5 sm:flex-row">
+    <section class="mt-[100px] px-[20px] bg-primary mb-20 mx-auto">
+        <div class="flex flex-col justify-between max-w-[1200px] mx-auto py-10 sm:space-x-5 sm:flex-row">
             <h2 class="text-3xl text-center md:text-start mb-4 sm:mb-0 font-semibold text-white leading-[170%]">let's discuss making your interior like a dream place!</h2>
             <div class="flex flex-col items-center sm:justify-center sm:items-start">
                 <p class="mb-5 text-base text-center sm:text-start text-grayscale_lightray">Contact us below to work together to build your amazing interior</p>
@@ -16,7 +16,7 @@
         </div>
     </section>
 
-    <section class="container mx-auto max-w-[1200px] px-4 sm:px-[60px] md:px-[120px]">
+    <section class="container mx-auto max-w-[1200px] px-5 sm:px-0">
         <div class="flex flex-col justify-between sm:flex-row">
             <div class="flex flex-col items-center mb-5 sm:mb-0 400px:items-start">
                 <router-link  class="mb-5 sm:md-0" to="/">

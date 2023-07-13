@@ -8,11 +8,14 @@ defineProps({
 </script>
 
 <template>
-  <h2 class="px-[20px] max-w-[650px] mb-[56px] text-2xl font-semibold leading-[170%]">
+  <div class="mx-auto max-w-[1200px]">
+    <h2 class="px-[20px] max-w-[650px] mb-[56px] text-2xl font-semibold leading-[170%]">
     {{ title }}
   </h2>
+  </div>
 
-  <div class="flex flex-col justify-between space-y-6 lg:space-y-0 lg:flex-row">
+
+  <div class="flex max-w-[1200px] mx-auto flex-col justify-between space-y-6 lg:space-y-0 lg:flex-row">
     <!-- image -->
     <div>
       <img src="../../../assets/about/interior_customization.svg" alt="image" />

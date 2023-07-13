@@ -43,7 +43,7 @@
         <button
           @click="burgerOpen = !burgerOpen; activate()"
           id="button"
-          class="border w-[50px] h-[50px] border-pink-700"
+          class="w-[50px] h-[50px]"
         >
           <!-- burger icon -->
           <svg
@@ -90,14 +90,14 @@
           @click.stop.prevent="console.log('menu')" 
           class="fixed right-0 h-full w-[250px] 400px:w-[400px] bg-white">
             <!-- button -->
-            <div class="flex justify-end pr-5 mt-10 border">
+            <div class="flex justify-end pr-5 mt-10 ">
               <button
                 v-if="burgerOpen"
                 tabindex="1"
                 @click="burgerOpen = !burgerOpen"
                 @click.prevent="deactivate()"
                 id="button"
-                class="border w-[50px] h-[50px] border-emerald-700 z-10 focus:outline-dashed outline-4 outline-primary"
+                class=" w-[50px] h-[50px] z-10 focus:outline-dashed outline-4 outline-primary"
               >
                 <!-- burger icon -->
                 <svg

@@ -4,7 +4,7 @@ import WhyChooseUsCard from "./pages/about/WhyChooseUsCard.vue";
 </script>
 
 <template>
-  <section>
+  <section class="max-w-[1200px] mx-auto">
     <div class="flex px-[20px] items-center lg:items-start flex-col mb-[40px]">
       <h2 class="capitalize mb-[24px] text-2xl font-semibold leading-[170%]">
         why choose us

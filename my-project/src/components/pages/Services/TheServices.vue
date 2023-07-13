@@ -1,5 +1,5 @@
 <script setup>
-import IntroSection from "../../IntroSection.vue";
+import IntroSection from "../Services/ServicesIntro.vue";
 import TitleWithLine from "../../TitleWithLine.vue";
 import AchievementItem from "./AchievementItem.vue";
 import ChooseYourProductThemes from "../home/ChooseYourProductThemes.vue";
@@ -9,7 +9,6 @@ import ChooseYourProductThemes from "../home/ChooseYourProductThemes.vue";
   <IntroSection
     :title="`Services`"
     :description="`It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.`"
-    :imageSrc="'https://i.ibb.co/tBGVv1h/ourteams.png'"
   />
   <TitleWithLine :title="`achievement`" :width="`w-[30vw] 400px:w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[120px] sm:left-[140px] md:left-[160px] lg:left-[170px] xl:left-[180px]`" class="px-[20px]" />
   <AchievementItem

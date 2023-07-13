@@ -1,4 +1,13 @@
 <script setup>
+import { ref, onMounted } from "vue";
+
+const showComponent = ref(false);
+
+onMounted(() => {
+  setTimeout(() => {
+    showComponent.value = true;
+  }, 2500); // Hide for 3 seconds (3000 milliseconds)
+});
 // import WhyChooseUs from "./components/WhyChooseUs.vue";
 // import TitleWithLine from "./components/TitleWithLine.vue";
 // import ChooseYourProductThemes from "./components/pages/home/ChooseYourProductThemes.vue";
@@ -54,7 +63,7 @@ import TheFooter from "./components/TheFooter.vue";
 </script>
 
 <template>
-  <body font-roboto id="app" class="container mx-auto max-w-[1200px]">
+  <body font-roboto id="app" class="container mx-auto">
     <transition :duration="2000" appear name="header">
       <TheHeader class="px-[20px]" />
     </transition>
@@ -65,7 +74,7 @@ import TheFooter from "./components/TheFooter.vue";
         </div>
       </transition>
     </router-view>
-    <transition appear name="footer" mode="out-in">
+    <transition v-if="showComponent" appear name="footer" mode="out-in">
       <div :key="Date.now()">
         <TheFooter />
       </div>
