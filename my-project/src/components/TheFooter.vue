@@ -6,9 +6,11 @@
             <div class="flex flex-col items-center sm:justify-center sm:items-start">
                 <p class="mb-5 text-base text-center sm:text-start text-grayscale_lightray">Contact us below to work together to build your amazing interior</p>
                 <a href="#" class="inline-block text-sm font-medium capitalize text-grayscale">
-                    <div class="flex justify-center items-center w-[142px] h-[49px] bg-white  hover:bg-primary hover:text-white active:bg-primary_active transition border">
+                    <router-link class="flex justify-center items-center w-[142px] h-[49px] bg-white  hover:bg-primary hover:text-white active:bg-primary_active transition border"
+                    to="/contactus"
+                    @click="goToTop">
                         <p>contact us</p>
-                    </div>
+                    </router-link>
                 </a>
             </div>
         </div>
@@ -17,7 +19,9 @@
     <section class="container mx-auto max-w-[1200px] px-4 sm:px-[60px] md:px-[120px]">
         <div class="flex flex-col justify-between sm:flex-row">
             <div class="flex flex-col items-center mb-5 sm:mb-0 400px:items-start">
-                <TheLogo class="mb-5 sm:md-0"/>
+                <router-link  class="mb-5 sm:md-0" to="/">
+                    <TheLogo/>
+                </router-link>
                 <h2 class=" text-base md:text-xl lg:text-2xl font-semibold leading-[170%] text-grayscale">One of the best furniture<br> agency.</h2>
             </div>
             <div class="relative z-10">
@@ -86,4 +90,11 @@
 
 <script setup>
 import TheLogo from './TheLogo.vue';
+const goToTop = () => {
+    window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+});
+}
 </script>

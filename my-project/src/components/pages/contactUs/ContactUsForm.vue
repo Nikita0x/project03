@@ -21,7 +21,7 @@ import MessageInput from "./MessageInput.vue";
       </p>
       <!-- form -->
       <form>
-        <div class="flex flex-col justify-between space-x-2 md:flex-row">
+        <div class="flex flex-col justify-between md:space-x-2 md:flex-row">
           <NameField
             class="mb-[20px]"
             title="First Name"

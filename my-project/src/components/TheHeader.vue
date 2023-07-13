@@ -3,7 +3,9 @@
     class="pt-10 container max-w-[1200px] mx-auto pb-[100px]"
   >
     <nav class="flex items-center justify-between md:justify-between">
-      <TheLogo />
+      <router-link to="/">
+        <TheLogo/>
+      </router-link>
       <ul
         class="hidden md:flex text-base text-grayscale items-center space-x-[20px] md:space-x-[40px] lg:space-x-[74px]"
       >

@@ -37,7 +37,7 @@ import TitleWithLine from "../../TitleWithLine.vue";
     <!--image  -->
     <div class="col-span-4 col-start-2 row-start-3 row-end-6">
       <img 
-        src="../../../assets/home/AttractiveFurniture.svg"
+        src="../../../assets/home/webp/AttractiveFurniture.webp"
         alt="image"
       />
     </div>

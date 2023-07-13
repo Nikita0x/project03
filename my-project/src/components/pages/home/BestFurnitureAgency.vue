@@ -28,7 +28,7 @@ defineProps({
       <!-- image -->
       <div class="relative flex-col items-center flex max-w-[883px]">
         <img
-          src="../../../assets/home/BestFurnitureAgency.svg"
+          src="../../../assets/home/webp/BestFurnitureAgency.webp"
           alt="image"
         />
         <!-- card -->
