@@ -6,7 +6,7 @@ import MessageInput from "./MessageInput.vue";
 </script>
 
 <template>
-  <section class="container mx-auto">
+  <section class="container mx-auto  pt-[100px]">
     <div
       class="flex flex-col items-center "
     >

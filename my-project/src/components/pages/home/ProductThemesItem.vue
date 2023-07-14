@@ -24,7 +24,7 @@ export default {
       <div class="flex items-center justify-between">
       <div class="flex">
         <p class="text-sm sm:text-base lg:text-[1.125rem] font-semibold leading-[140%]">{{ number }}</p>
-        <p class="pl-[20px] 400px:pl-[80px] text-sm sm:text-base lg:text-[1.125rem] font-semibold leading-[140%]">
+        <p class="pl-[20px] 400px:pl-[80px] text-2xl font-semibold leading-[140%]">
           {{ theme }}
         </p>
       </div>
@@ -36,7 +36,7 @@ export default {
 
     <p
       v-if="description"
-      class="ml-[10vw] pt-[24px] max-w-[650px] min-h-[58px] text-sm sm:text-base lg:text-[1.125rem] font-normal leading-[160%]"
+      class="ml-[10vw] pt-[24px] max-w-[650px] min-h-[58px] text-sm font-normal leading-[160%]"
     >
       {{ description }}
     </p>

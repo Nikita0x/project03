@@ -27,10 +27,10 @@ export default {
       </div>
       <!-- title + description -->
       <div class="px-[20px] lg:px-0 flex flex-col items-center lg:items-start">
-        <h3 class="text-2xl pt-5 lg:pt-0 max-w-[334px] font-semibold leading-[140%] mb-[20px]">
+        <h3 class="text-lg pt-5 lg:pt-0 max-w-[334px] font-semibold leading-[140%] mb-[20px]">
           {{ title }}
         </h3>
-        <p class="lg:max-w-[334px] text-lg font-normal leading-[160%]">
+        <p class="lg:max-w-[334px] text-sm font-normal leading-[160%]">
           {{ description }}
         </p>
       </div>

@@ -16,6 +16,6 @@ import WhyChooseUs from "../../../components/WhyChooseUs.vue"
   :professionalTeams="`23+`"
   :yearsExperience="`15+`"
   />
-  <TitleWithLine :title="`service`" :width="`w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[90px] sm:left-[80px] md:left-[90px] lg:left-[100px] xl:left-[180px]`" class="px-[20px]" />
+  <TitleWithLine :title="`service`" :width="`w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[90px] sm:left-[80px] md:left-[90px] lg:left-[100px] xl:left-[180px]`" class="px-[20px] pt-[100px]" />
   <WhyChooseUs/>
 </template>

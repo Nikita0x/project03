@@ -2,9 +2,9 @@
 <template>
     <section class="mt-[100px] px-[20px] bg-primary mb-20 mx-auto">
         <div class="flex flex-col justify-between max-w-[1200px] mx-auto py-10 sm:space-x-5 sm:flex-row">
-            <h2 class="text-3xl text-center md:text-start mb-4 sm:mb-0 font-semibold text-white leading-[170%]">let's discuss making your interior like a dream place!</h2>
+            <h2 class="text-2xl text-center md:text-start mb-4 sm:mb-0 font-semibold text-white leading-[170%]">let's discuss making your interior like a dream place!</h2>
             <div class="flex flex-col items-center sm:justify-center sm:items-start">
-                <p class="mb-5 text-base text-center sm:text-start text-grayscale_lightray">Contact us below to work together to build your amazing interior</p>
+                <p class="mb-5 text-sm text-center sm:text-start text-grayscale_lightray">Contact us below to work together to build your amazing interior</p>
                 <a href="#" class="inline-block text-sm font-medium capitalize text-grayscale">
                     <router-link class="flex justify-center items-center w-[142px] h-[49px] bg-white  hover:bg-primary hover:text-white active:bg-primary_active transition border"
                     to="/contactus"
@@ -29,10 +29,10 @@
                     <svg class="hidden 400px:block mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="14" height="15" fill="none"><ellipse cx="7" cy="7.18237" fill="#333" rx="7" ry="7.00879"/></svg>
                     <p class="inline-block text-sm text-center leading-[160%] text-grayscale">Enter  your email to get the latest news</p>
                 </div>
-                <input type="text" placeholder="Email Address" class="px-6 py-2 w-full focus:outline-none   placeholder:text-base placeholder:leading-[160%] placeholder:text-grayscale_lightray border-b border-black">
+                <input type="text" placeholder="Email Address" class="px-6 py-2 w-full focus:outline-none   placeholder:text-sm placeholder:leading-[160%] placeholder:text-grayscale_lightray border-b border-black">
                 <div class="flex justify-center sm:justify-end">
                     <div class="flex flex-col items-center justify-end pt-10">
-                    <p class="mb-[11px]">Follow us On</p>
+                    <p class="mb-[11px] text-sm">Follow us On</p>
                     <div class="flex space-x-[25px]">
                         <a href="#">
                             <div class="flex items-center justify-center w-8 h-8 rounded-full bg-grayscale_lightray">

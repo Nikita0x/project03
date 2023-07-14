@@ -1,6 +1,6 @@
 <template>
   <header
-    class="pt-10 container max-w-[1200px] mx-auto pb-[100px]"
+    class="pt-10 container sticky top-0 bg-white z-30 max-w-[1200px] mx-auto"
   >
     <nav class="flex items-center justify-between md:justify-between">
       <router-link to="/">

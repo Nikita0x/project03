@@ -1,5 +1,4 @@
 <script setup>
-import TitleWithLine from "./TitleWithLine.vue";
 import WhyChooseUsCard from "./pages/about/WhyChooseUsCard.vue";
 </script>
 

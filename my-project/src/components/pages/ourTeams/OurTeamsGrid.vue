@@ -12,11 +12,11 @@ defineProps({
     <div class="flex flex-col container max-w-[1200px] mx-auto">
       <TitleWithLine :title="`designer`" :width="`w-[30vw] 400px:w-[45vw] max-w-400px`" :top="`top-[11px]`" :left="`left-[120px] sm:left-[100px] md:left-[110px] lg:left-[120px] xl:left-[140px]`" class="px-[20px]" />
       <h2
-        class="max-w-[470px] mb-[24px] text-4xl font-semibold leading-[170%] text-[#333]"
+        class="max-w-[470px] mb-[24px] text-2xl font-semibold leading-[170%] text-[#333]"
       >
         Creative Person
       </h2>
-      <p class="max-w-[470px] mb-[80px] text-lg leading-[160%] text-[#9C9C9C]">
+      <p class="max-w-[470px] mb-[80px] text-sm leading-[160%] text-[#9C9C9C]">
         Customize your interior design into a dream place with the best
         designers and quality furniture. We try our best to fulfill your
         expectations.
