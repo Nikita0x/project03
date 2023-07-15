@@ -63,7 +63,7 @@ import TheFooter from "./components/TheFooter.vue";
 </script>
 
 <template>
-  <body font-roboto id="app" class="container mx-auto">
+  <body font-roboto id="app" class="container mx-auto ">
     <transition :duration="2000" appear name="header">
       <TheHeader class="px-[20px]" />
     </transition>

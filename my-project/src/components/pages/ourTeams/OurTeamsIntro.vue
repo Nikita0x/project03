@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-  <section class="mb-[100px]  pt-[100px] container max-w-[1200px] mx-auto">
+  <section class="mb-[100px]  md:pt-[100px] container max-w-[1200px] mx-auto">
     <div class="flex flex-col items-center">
       <h2 class="text-[56px] font-bold leading-[140%] mb-[36px]">
         {{ title }}
