@@ -19,6 +19,8 @@
         materials and selected quality materials.
       </p>
       <button
+        aria-label="See materials"
+        href="/services"
         class="w-[159px] h-[49px] hover:bg-primary hover:text-white active:bg-primary_active active:text-white bg-white border border-[#3C3C3C] text-sm font-medium leading-[150%] text-[#333] transition"
       >
         See Materials

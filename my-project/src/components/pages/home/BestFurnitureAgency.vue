@@ -7,6 +7,13 @@ defineProps({
   flexDirection: String,
   right: String,
 });
+const goToTop = () => {
+    window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+});
+}
 </script>    
     
     <template>
@@ -28,7 +35,7 @@ defineProps({
       <!-- image -->
       <div class="relative flex-col items-center flex max-w-[883px]">
         <img
-          src="../../../assets/home/webp/BestFurnitureAgency.webp"
+          src="../../../assets/home/webp/Minified/BestFurnitureAgency.webp"
           alt="image"
         />
         <!-- card -->
@@ -51,8 +58,10 @@ defineProps({
         <p class="mb-[40px] text-lg leading-[160%] text-[#9C9C9C]">
           {{ description }}
         </p>
-        <a
-          href="#"
+        <router-link
+          @click="goToTop"
+          to="/about"
+          href="/about"
           class="inline-block text-sm font-medium capitalize text-grayscale"
         >
           <div
@@ -60,7 +69,7 @@ defineProps({
           >
             <p>learn more</p>
           </div>
-        </a>
+        </router-link>
       </div>
     </div>
   </section>

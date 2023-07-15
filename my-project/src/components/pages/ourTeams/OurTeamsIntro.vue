@@ -26,7 +26,7 @@ export default {
         {{ description }}
       </p>
       <div class="max-w-[1200px]">
-        <img src="../../../assets/ourteams/ourteams_intro.jpg" alt="image" />
+        <img src="../../../assets/ourteams/ourteams_introMinified.jpg" alt="image" />
       </div>
     </div>
   </section>

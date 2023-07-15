@@ -30,7 +30,7 @@ export default {
         {{ description }}
       </p>
       <div class="max-w-[1200px]">
-        <img src="../../../assets/about/about_intro.svg" alt="image" />
+        <img src="../../../assets/about/aboutMinified/about_introMinified.webp" alt="image" />
       </div>
     </div>
   </section>

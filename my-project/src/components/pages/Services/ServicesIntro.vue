@@ -26,7 +26,7 @@ export default {
         {{ description }}
       </p>
       <div class="max-w-[1200px]">
-        <img src="../../../assets/services/services_intro.jpg" alt="image" />
+        <img src="../../../assets/home/webp/Minified/AttractiveFurniture.webp" alt="image" />
       </div>
     </div>
   </section>

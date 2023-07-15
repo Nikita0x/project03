@@ -19,7 +19,7 @@ defineProps({
       <div
         class="max-w-[1200px]"
       >
-    <img src="../../../assets/home/webp/HomeIntro.webp" alt="HomeIntroImage">
+    <img src="../../../assets/home/webp/Minified/HomeIntroMinified.webp" alt="HomeIntroImage">
   </div>
       <!-- right sidebar -->
       <HomeIntroBlueSidebar />

@@ -2,6 +2,7 @@
   <!-- burger menu -->
   <div class="z-30 flex items-center justify-center md:hidden">
     <button
+      aria-label="Open menu"
       @click="
         show = !show;
       "
@@ -47,7 +48,8 @@
           @click.stop="console.log('menu show')">
           <!-- close menu burger -->
               <div class="flex flex-row-reverse pr-6 h-[50px]">
-                  <button @click.stop="show = !show" tabindex="6" class="focus:outline-dashed outline-4 outline-primary flex h-[60px] w-[60px]">
+                  <button @click.stop="show = !show"
+                  aria-label="Close menu" tabindex="6" class="focus:outline-dashed outline-4 outline-primary flex h-[60px] w-[60px]">
                   <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -63,48 +65,58 @@
               </svg>
               </button>
               </div>
-              <ul class="flex flex-col items-center justify-center mt-5 space-y-3 text-2xl ">
-          <router-link
-            tabindex="1"
-            id="home"
-            v-on:click="show = false"
-            @click.prevent="goToTop()"
-            class="p-5 transition border-b-2 border-transparent hover:text-primary_hover hover:border-primary_hover focus:outline-dashed outline-4 outline-primary"
-            to="/"
-            >Home</router-link
-          >
-          <router-link
-          tabindex="2"
-            v-on:click="show = false"
-            @click.prevent="goToTop()"
-            class="p-5 transition border-b-2 border-transparent hover:text-primary_hover hover:border-primary_hover focus:outline-dashed outline-4 outline-primary"
-            to="/about"
-            >About</router-link
-          >
-          <router-link
-          tabindex="3"
-            v-on:click="show = false"
-            @click.prevent="goToTop()"
-            class="p-5 transition border-b-2 border-transparent hover:text-primary_hover hover:border-primary_hover focus:outline-dashed outline-4 outline-primary"
-            to="/services"
-            >Services</router-link
-          >
-          <router-link
-          tabindex="4"
-            v-on:click="show = false"
-            @click.prevent="goToTop()"
-            class="p-5 transition border-b-2 border-transparent hover:text-primary_hover hover:border-primary_hover focus:outline-dashed outline-4 outline-primary"
-            to="/ourteams"
-            >Our teams</router-link
-          >
-          <router-link
-          tabindex="5"
-            v-on:click="show = false"
-            @click.prevent="goToTop()"
-            class="flex p-5 text-center text-white transition border-b-2 border-transparent hover:bg-primary_hover active:bg-primary_active bg-primary focus:outline-dashed outline-4 outline-primary"
-            to="/contactus"
-            >Contact Us</router-link
-          >
+              <ul class="flex flex-col items-center justify-center mt-5 space-y-10 text-2xl ">
+                <li>
+                  <router-link
+                    tabindex="1"
+                    id="home"
+                    v-on:click="show = false"
+                    @click.prevent="goToTop()"
+                    class="p-5 transition border-b-2 border-transparent hover:text-primary_hover hover:border-primary_hover focus:outline-dashed outline-4 outline-primary"
+                    to="/"
+                    >Home</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                  tabindex="2"
+                    v-on:click="show = false"
+                    @click.prevent="goToTop()"
+                    class="p-5 transition border-b-2 border-transparent hover:text-primary_hover hover:border-primary_hover focus:outline-dashed outline-4 outline-primary"
+                    to="/about"
+                    >About</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                  tabindex="3"
+                    v-on:click="show = false"
+                    @click.prevent="goToTop()"
+                    class="p-5 transition border-b-2 border-transparent hover:text-primary_hover hover:border-primary_hover focus:outline-dashed outline-4 outline-primary"
+                    to="/services"
+                    >Services</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                  tabindex="4"
+                    v-on:click="show = false"
+                    @click.prevent="goToTop()"
+                    class="p-5 transition border-b-2 border-transparent hover:text-primary_hover hover:border-primary_hover focus:outline-dashed outline-4 outline-primary"
+                    to="/ourteams"
+                    >Our teams</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                  tabindex="5"
+                    v-on:click="show = false"
+                    @click.prevent="goToTop()"
+                    class="flex p-5 text-center text-white transition border-b-2 border-transparent hover:bg-primary_hover active:bg-primary_active bg-primary focus:outline-dashed outline-4 outline-primary"
+                    to="/contactus"
+                    >Contact Us</router-link
+                  >
+                </li>
               </ul>
           </div>
   

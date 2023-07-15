@@ -11,7 +11,7 @@
         >
           Visit Our Stores
         </h2>
-        <p class="font-normal text-sm leading-[160%] text-[#9C9C9C] mb-[39px]">
+        <p class="font-normal text-sm leading-[160%] text-[#5d5d5d] mb-[39px]">
           Find us at these locations.
         </p>
         <h3
@@ -19,7 +19,7 @@
         >
           Email
         </h3>
-        <p class="font-normal mb-[33px] text-sm leading-[160%] text-[#9C9C9C]">
+        <p class="font-normal mb-[33px] text-sm leading-[160%] text-[#5d5d5d]">
           dananz@gmail.com
         </p>
         <h3
@@ -27,7 +27,7 @@
         >
           Phone
         </h3>
-        <p class="font-normal text-sm leading-[160%] text-[#9C9C9C]">
+        <p class="font-normal text-sm leading-[160%] text-[#5d5d5d]">
           +62 815 002 1000
         </p>
       </div>
@@ -40,7 +40,7 @@
             Jakarta
           </h2>
           <p
-            class="font-normal text-start text-sm leading-[160%] text-[#9C9C9C]"
+            class="font-normal text-start text-sm leading-[160%] text-[#5d5d5d]"
           >
             Customize your interior design into a dream place with the best
             designers and quality furniture. We try our best to fulfill your
@@ -53,7 +53,7 @@
           >
             Surakarta
           </h2>
-          <p class="font-normal text-sm leading-[160%] text-[#9C9C9C]">
+          <p class="font-normal text-sm leading-[160%] text-[#5d5d5d]">
             Customize your interior design into a dream place with the best
             designers and quality furniture. We try our best to fulfill your
             expectations.
@@ -65,7 +65,7 @@
           >
             Yogyakarta
           </h2>
-          <p class="font-normal text-sm leading-[160%] text-[#9C9C9C]">
+          <p class="font-normal text-sm leading-[160%] text-[#5d5d5d]">
             Customize your interior design into a dream place with the best
             designers and quality furniture. We try our best to fulfill your
             expectations.
@@ -77,7 +77,7 @@
           >
             Bandung
           </h2>
-          <p class="font-normal text-sm leading-[160%] text-[#9C9C9C]">
+          <p class="font-normal text-sm leading-[160%] text-[#5d5d5d]">
             Customize your interior design into a dream place with the best
             designers and quality furniture. We try our best to fulfill your
             expectations.

@@ -18,7 +18,7 @@ defineProps({
   <div class="flex max-w-[1200px] mx-auto flex-col justify-between space-y-6 lg:space-y-0 lg:flex-row">
     <!-- image -->
     <div>
-      <img src="../../../assets/about/interior_customization.svg" alt="image" />
+      <img src="../../../assets/about/aboutMinified/interior_customizationMinified.webp" alt="image" />
     </div>
     <!-- right sidebar -->
     <div

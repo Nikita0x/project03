@@ -15,12 +15,31 @@ export default {
       required: true,
     },
   },
+  methods: {
+    goToTop () {
+    window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+});
+}
+    
+  }
 };
+const goToTop = () => {
+    window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+});
+}
 </script>
 
 <template>
   <div class="flex flex-col">
-    <a href="#" class="transition duration-300 rounded-sm hover:bg-slate-200 focus:bg-slate-200">
+    <router-link href="/contactus" to="/contactus"
+    @click="goToTop"
+    class="transition duration-300 rounded-sm hover:bg-slate-200 focus:bg-slate-200">
       <div class="flex items-center justify-between">
       <div class="flex">
         <p class="text-sm sm:text-base lg:text-[1.125rem] font-semibold leading-[140%]">{{ number }}</p>
@@ -32,7 +51,7 @@ export default {
         <img src="../../../assets/home//arrow-right.svg" alt="arrow-right">
       </div>
     </div>
-    </a>
+    </router-link>
 
     <p
       v-if="description"

@@ -7,7 +7,7 @@ import ContactUs from "../components/pages/contactUs/ContactUsPage.vue"
 
 const routes = [
     {path: '/', name: 'Home', component: TheHomePage},
-    {path: '/about', name: 'About', component:TheAbout},
+    {path: '/about', name: 'About our company', component:TheAbout},
     {path: '/services', name: 'Services', component:TheServices},
     {path: '/ourteams', name: 'Our Teams', component:OurTeamsPage},
     {path: '/contactus', name: 'Contact Us', component:ContactUs},

@@ -5,9 +5,10 @@
             <h2 class="text-2xl text-center md:text-start mb-4 sm:mb-0 font-semibold text-white leading-[170%]">let's discuss making your interior like a dream place!</h2>
             <div class="flex flex-col items-center sm:justify-center sm:items-start">
                 <p class="mb-5 text-sm text-center sm:text-start text-grayscale_lightray">Contact us below to work together to build your amazing interior</p>
-                <a href="#" class="inline-block text-sm font-medium capitalize text-grayscale">
+                <a href="/contactus" class="inline-block text-sm font-medium capitalize text-grayscale">
                     <router-link class="flex justify-center items-center w-[142px] h-[49px] bg-white  hover:bg-primary hover:text-white active:bg-primary_active transition border"
                     to="/contactus"
+                    href="/contactus"
                     @click="goToTop">
                         <p>contact us</p>
                     </router-link>
@@ -19,7 +20,8 @@
     <section class="container mx-auto max-w-[1200px] px-5 sm:px-0">
         <div class="flex flex-col justify-between sm:flex-row">
             <div class="flex flex-col items-center mb-5 sm:mb-0 400px:items-start">
-                <router-link  class="mb-5 sm:md-0" to="/">
+                <router-link  class="mb-5 sm:md-0" to="/"
+                href="/contactus">
                     <TheLogo/>
                 </router-link>
                 <h2 class=" text-base md:text-xl lg:text-2xl font-semibold leading-[170%] text-grayscale">One of the best furniture<br> agency.</h2>
@@ -34,7 +36,7 @@
                     <div class="flex flex-col items-center justify-end pt-10">
                     <p class="mb-[11px] text-sm">Follow us On</p>
                     <div class="flex space-x-[25px]">
-                        <a href="#">
+                        <a href="https://www.facebook.com/" aria-label="Our facebook page">
                             <div class="flex items-center justify-center w-8 h-8 rounded-full bg-grayscale_lightray">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="icon/facebook">
@@ -43,7 +45,7 @@
                             </svg>
                             </div>
                         </a>
-                        <a href="#">
+                        <a href="https://www.instagram.com/"  aria-label="Our instagram page">
                             <div class="flex items-center justify-center w-8 h-8 rounded-full bg-grayscale_lightray">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g id="icon/instagram">
@@ -54,7 +56,7 @@
 
                             </div>
                         </a>
-                        <a href="#">
+                        <a href="https://www.tiktok.com/"  aria-label="Our tiktok page">
                             <div class="flex items-center justify-center w-8 h-8 rounded-full bg-grayscale_lightray">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g id="icon/tiktok">
@@ -64,7 +66,7 @@
 
                             </div>
                         </a>
-                        <a href="#">
+                        <a href="https://www.youtube.com/"  aria-label="Our youtube page">
                             <div class="flex items-center justify-center w-8 h-8 rounded-full bg-grayscale_lightray">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g id="icon/youtube">
@@ -77,7 +79,7 @@
                 </div>
                 </div>
 
-                <button>
+                <button aria-label="Submit your email address">
                     <svg class="absolute right-0 top-10" xmlns="http://www.w3.org/2000/svg" width="26" height="12" fill="none"><path stroke="#141414" stroke-width="2" d="M0 10.2479h23.5L16 1.23633"/></svg>
                 </button>
             </div>

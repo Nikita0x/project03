@@ -47,6 +47,7 @@ import MessageInput from "./MessageInput.vue";
         </div>
         <div class="flex justify-center w-full">
           <button
+            aria-label="Send Message"
             class="text-white text-xs bg-[#2C3878] hover:bg-[#242F67] active:bg-[#1F2856] w-[168px] h-[49px] border border-[#3C3C3C]"
             type="submit"
           >
