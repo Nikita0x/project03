@@ -6,5 +6,5 @@ I tried to follow the mock-up as closely as possible, but adjusted some images w
 
 
 <div align="center">
-  <img src="https://ik.imagekit.io/irinavn2011/RealEstate.jpg?updatedAt=1687333283510" width="1200" height="auto"/>
+  <img src="https://i.ibb.co/k9kHQBQ/000346.png" width="1200" height="auto"/>
 </div>
