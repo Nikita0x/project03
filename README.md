@@ -1,1 +1,1 @@
-# Another website built with Tailwind
+# First website built with Vue.js + Tailwind.
