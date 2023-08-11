@@ -25,7 +25,7 @@ export default {
         {{ title }}
       </h2>
       <p
-        class="text-center max-w-[518px] text-lg font-normal leading-[160%] mb-[57px]"
+        class="text-center max-w-[518px] px-5 text-lg font-normal leading-[160%] mb-[57px]"
       >
         {{ description }}
       </p>

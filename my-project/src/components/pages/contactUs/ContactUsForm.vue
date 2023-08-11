@@ -14,7 +14,7 @@ import MessageInput from "./MessageInput.vue";
       <h2 class="text-[2.5rem] font-bold leading-[140%] mb-[40px]">Contact Us</h2>
       <!-- description -->
       <p
-        class="text-sm text-center max-w-[340px] font-normal leading-[160%] mb-[51px]"
+        class="text-sm text-center max-w-[340px] font-normal leading-[160%] px-5 mb-[51px]"
       >
         It is a long established fact that a reader will be distracted by the
         readable content of a page when looking at its layout.

@@ -39,7 +39,7 @@
             Contact Us
           </router-link>
       </ul>
-      <BurgerMenu class="md:hidden" />
+      <BurgerMenu class="block md:hidden" />
     </nav>
   </header>
 </template>

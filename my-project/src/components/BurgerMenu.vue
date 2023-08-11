@@ -47,10 +47,12 @@
           <div class="fixed right-0 h-full w-[250px] 400px:w-[400px] bg-white"
           @click.stop="console.log('menu show')">
           <!-- close menu burger -->
-              <div class="flex flex-row-reverse pr-6 h-[50px]">
+              <div class="flex flex-row-reverse h-[60px] fill-current ">
                   <button @click.stop="show = !show"
-                  aria-label="Close menu" tabindex="6" class="focus:outline-dashed outline-4 outline-primary flex h-[60px] w-[60px]">
+                  aria-label="Close menu" tabindex="1" class="focus:outline-dashed outline-4 text-black outline-primary flex h-[60px] mt-4 mr-4 w-[60px] ">
                   <svg
+                  width="100%"
+                  class="fill-black"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -62,13 +64,14 @@
                   stroke-linejoin="round"
                   d="M6 18L18 6M6 6l12 12"
                   />
-              </svg>
+                  </svg>
+
               </button>
               </div>
               <ul class="flex flex-col items-center justify-center mt-5 space-y-10 text-2xl ">
                 <li>
                   <router-link
-                    tabindex="1"
+                    tabindex="2"
                     id="home"
                     v-on:click="show = false"
                     @click.prevent="goToTop()"
@@ -79,7 +82,7 @@
                 </li>
                 <li>
                   <router-link
-                  tabindex="2"
+                  tabindex="3"
                     v-on:click="show = false"
                     @click.prevent="goToTop()"
                     class="p-5 transition border-b-2 border-transparent hover:text-primary_hover hover:border-primary_hover focus:outline-dashed outline-4 outline-primary"
@@ -89,7 +92,7 @@
                 </li>
                 <li>
                   <router-link
-                  tabindex="3"
+                  tabindex="4"
                     v-on:click="show = false"
                     @click.prevent="goToTop()"
                     class="p-5 transition border-b-2 border-transparent hover:text-primary_hover hover:border-primary_hover focus:outline-dashed outline-4 outline-primary"
@@ -99,7 +102,7 @@
                 </li>
                 <li>
                   <router-link
-                  tabindex="4"
+                  tabindex="5"
                     v-on:click="show = false"
                     @click.prevent="goToTop()"
                     class="p-5 transition border-b-2 border-transparent hover:text-primary_hover hover:border-primary_hover focus:outline-dashed outline-4 outline-primary"
@@ -109,7 +112,7 @@
                 </li>
                 <li>
                   <router-link
-                  tabindex="5"
+                  tabindex="6"
                     v-on:click="show = false"
                     @click.prevent="goToTop()"
                     class="flex p-5 text-center text-white transition border-b-2 border-transparent hover:bg-primary_hover active:bg-primary_active bg-primary focus:outline-dashed outline-4 outline-primary"
